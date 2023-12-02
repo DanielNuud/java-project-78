@@ -1,26 +1,26 @@
 package hexlet.code;
 
-public class StringSchema<T> {
+public class StringSchema {
     private boolean required = false;
     private Integer minLength;
     private String contains;
 
-    public StringSchema<T> required() {
+    public StringSchema required() {
         required = true;
         return this;
     }
 
-    public StringSchema<T> minLength(int length) {
+    public StringSchema minLength(int length) {
         minLength = length;
         return this;
     }
 
-    public StringSchema<T> contains(String substring) {
+    public StringSchema contains(String substring) {
         contains = substring;
         return this;
     }
 
-    public boolean isValid(T data) {
+    public boolean isValid(Object data) {
         if (data == null) {
             return !required;
         }
