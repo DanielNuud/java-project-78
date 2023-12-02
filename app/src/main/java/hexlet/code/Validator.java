@@ -1,8 +1,8 @@
 package hexlet.code;
 
-public class Validator<T> {
-    public StringSchema<T> string() {
-        return new StringSchema<T>();
+public class Validator {
+    public StringSchema string() {
+        return new StringSchema();
     }
 
 }
