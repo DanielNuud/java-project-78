@@ -23,7 +23,4 @@ test:
 report:
 	./gradlew jacocoTestReport
 
-build:
-	cd code/app && chmod +x ./gradlew && ./gradlew clean build
-
 .PHONY: build
