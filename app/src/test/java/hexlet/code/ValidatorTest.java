@@ -109,4 +109,5 @@ class ValidatorTest {
         human4.put("age", -5);
         assertFalse(schema.isValid(human4));
     }
+
 }

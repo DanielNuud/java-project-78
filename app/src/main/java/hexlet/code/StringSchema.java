@@ -24,4 +24,5 @@ public final class StringSchema extends BaseSchema {
         );
         return this;
     }
+
 }
